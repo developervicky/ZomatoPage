@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
+
+a {
+  color: unset;
+}
+
+/* header */
+header {
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 58vh;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 10px;
+  padding: 30px 20%;
+}
+
+.user_log {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: rgb(50, 81, 173); */
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.login,
+.signup {
+  padding: 0px 20px;
+}
+
+.phone {
+  /* background-color: red; */
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.logo {
+  position: relative;
+  height: 300px;
+  width: 600px;
+  margin: 4.5% 42%;
+}
+
+.zomlogo {
+  height: 60px;
+  width: 300px;
+}
