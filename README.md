@@ -1,3 +1,3 @@
 # Zomato Cloning
 
-**Reference :** [Zomato](https://www.zomato.com/india)
+**Reference :** [Zomato](https://www.zomato.com/kingman-ks)
