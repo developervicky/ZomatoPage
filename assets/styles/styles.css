@@ -5,57 +5,88 @@
   font-family: "Rubik", sans-serif;
   text-decoration: none;
 }
-
 a {
   color: unset;
 }
-
 /* header */
 header {
-  background-image: url(../images/hero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 58vh;
+  position: relative;
 }
-
+.bgimage {
+  position: absolute;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+}
+.navbar {
+  position: relative;
+  width: 100%;
+  max-width: 58rem;
+  margin: 0 auto;
+  /* background-color: blue; */
+}
 nav {
   color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 10px;
-  padding: 30px 20%;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px 0px;
 }
-
+.phone {
+  /* background-color: red; */
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  position: absolute;
+  left: 0px;
+}
+.fa-mobile-alt{
+  padding-left: 5px;
+}
+.getapp {
+  position: relative;
+  left: 6px;
+}
 .user_log {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   /* background-color: rgb(50, 81, 173); */
   font-size: 18px;
   font-weight: lighter;
+  position: absolute;
 }
 
 .login,
 .signup {
   padding: 0px 20px;
 }
-
-.phone {
-  /* background-color: red; */
-  font-size: 14px;
-  font-weight: 400;
+.signup {
+  padding-right: 5px;
 }
 
 .logo {
-  position: relative;
-  height: 300px;
-  width: 600px;
-  margin: 4.5% 42%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 6rem;
+  justify-content: center;
 }
 
 .zomlogo {
   height: 60px;
   width: 300px;
 }
+.slogan{
+  color: white;
+  /* background-color: black; */
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 7rem;
+  font-weight: 300;
+  font-size: 2.3rem;
+}
+.city{
+  font-weight: 400;
+}
+
