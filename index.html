@@ -48,7 +48,11 @@
           <div class="centerthebox">
             <div class="citypicker">
               <i class="fas fa-map-marker-alt"></i>
-              <input class="cityinput" type="text" placeholder="Kingman, Kansas" />
+              <input
+                class="cityinput"
+                type="text"
+                placeholder="Kingman, Kansas"
+              />
               <i class="fas fa-sort-down"></i>
             </div>
             <div class="seperator"></div>
@@ -57,7 +61,7 @@
                 <i class="fas fa-search"></i>
               </div>
               <input
-              class="searchinput"
+                class="searchinput"
                 type="text"
                 placeholder="Search for restaurant, cuisine or a dish"
               />
@@ -66,5 +70,53 @@
         </div>
       </div>
     </header>
+    <section class="placesaround">
+      <div class="sectiononemain">
+        <p class="locality">
+          Popular localities in and around
+          <span class="cityname">Kingman, Kansas</span>
+        </p>
+        <div class="placesnearfind">
+          <p class="storecount">Kingman (12 places)</p>
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+    </section>
+    <section class="zomatoapp">
+      <div class="appcontainer">
+        <div class="app_photo">
+          <img class="phoneapp" src="./assets/images/app.png" alt="app" />
+        </div>
+        <div class="appinfo">
+          <p class="apptitle">Get the Zomato App</p>
+          <p class="appdesc">
+            We will send you a link, open it on your phone to download the app
+          </p>
+          <div class="app_form">
+            <input class="emailradio" type="radio" id="email" />
+            <label class="emailradiotext" for="email">Email</label>
+            <input class="phoneradio" type="radio" id="phone" />
+            <label class="phoneradiotext" for="phone">Phone</label>
+          </div>
+          <div class="submit_form">
+            <input class="email_input" type="email" placeholder="Email" />
+            <input class="submit_input" type="submit" value="Share App Link" />
+          </div>
+          <p class="download_app">Download app from</p>
+          <div class="download_apppic">
+            <img
+              class="appstore"
+              src="./assets/images/appStore.png"
+              alt="appstore"
+            />
+            <img
+              class="playstore"
+              src="./assets/images/playStore.png"
+              alt="playStore"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

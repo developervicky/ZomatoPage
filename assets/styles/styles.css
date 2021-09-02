@@ -8,10 +8,12 @@
 a {
   color: unset;
 }
-/* header */
+/* header & navbar */
 header {
   position: relative;
+  margin-bottom: 1rem;
 }
+
 .bgimage {
   position: absolute;
   width: 100%;
@@ -72,6 +74,10 @@ nav {
   justify-content: center;
 }
 
+.main_container {
+  height: 20rem;
+  width: 100%;
+}
 .zomlogo {
   height: 60px;
   width: 300px;
@@ -180,4 +186,192 @@ nav {
   border: none;
   font-size: 0.9rem;
   font-weight: 300;
+}
+
+/* Section-1 Places Around */
+
+.placesaround {
+  /* background-color: black; */
+  position: relative;
+  width: 100%;
+  height: 17rem;
+  margin: auto;
+}
+
+.sectiononemain {
+  max-width: 65rem;
+  /* background-color: blue; */
+  height: 17rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.locality {
+  font-size: 2.2rem;
+  font-weight: 380;
+  text-align: center;
+}
+
+.cityname {
+  font-weight: 400;
+}
+
+.placesnearfind {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: rgb(28 28 28 / 8%) 0px 1.42623px 2.85246px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(232, 232, 232);
+  width: 100%;
+  max-width: 22rem;
+  /* margin-left: 20rem; */
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 10px;
+  font-weight: 300;
+  flex-wrap: nowrap;
+  padding: 0.3rem;
+}
+
+.storecount,
+.fa-angle-right {
+  margin: 1rem 1.2rem;
+}
+.storecount {
+  font-size: 1.2rem;
+}
+
+/* Section-2 Zomato App */
+
+.zomatoapp {
+  position: relative;
+  background-color: rgb(255, 251, 247);
+  height: 40rem;
+  width: 100%;
+}
+
+.appcontainer {
+  /* background-color: chartreuse; */
+  height: 40rem;
+  max-width: 50rem;
+  margin: auto;
+}
+
+.phoneapp {
+  position: absolute;
+  object-fit: cover;
+  top: 5.5rem;
+  height: 500px;
+  width: 300px;
+  margin: auto;
+}
+
+.appinfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 20rem;
+  top: 7rem;
+  max-width: 27rem;
+  height: 26rem;
+  /* background-color: chocolate; */
+}
+
+.apptitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.appdesc {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+  color: rgb(133, 130, 130);
+}
+
+.app_form {
+  width: 13rem;
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 1rem;
+}
+
+.phoneradio {
+  position: relative;
+  top: 0.2rem;
+  left: 4rem;
+  stroke: rgb(237, 90, 107);
+  stroke-width: 1px;
+  fill: rgb(255, 255, 255);
+}
+
+.phoneradiotext {
+  position: relative;
+  left: 4.5rem;
+}
+
+.emailradio {
+  position: relative;
+  top: 0.2rem;
+  stroke: rgb(237, 90, 107);
+  stroke-width: 1px;
+  fill: rgb(255, 255, 255);
+}
+
+.emailradiotext {
+  position: relative;
+  left: 0.5rem;
+}
+.submit_form {
+  display: flex;
+  flex-direction: row;
+  /* background-color: crimson; */
+  height: 4rem;
+  width: 27rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.email_input,
+.submit_input {
+  height: 3rem;
+  border-radius: 7px;
+}
+
+.email_input {
+  width: 17rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-indent: 15px;
+  outline: none;
+  border: 0.1rem solid rgb(207, 207, 207);
+}
+.submit_input {
+  height: 3.2rem;
+  width: 9rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #ec4654;
+  border-width: 0;
+}
+
+.download_app {
+  color: rgb(156, 156, 156);
+  margin-bottom: 1rem;
+
+  width: 25rem;
+}
+
+.download_apppic {
+  /* background-color: turquoise; */
+  width: 22rem;
+  display: flex;
+  justify-content: space-between;
+}
+.appstore,
+.playstore {
+  height: 3rem;
 }
