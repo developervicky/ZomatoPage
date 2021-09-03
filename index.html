@@ -93,10 +93,23 @@
             We will send you a link, open it on your phone to download the app
           </p>
           <div class="app_form">
-            <input class="emailradio" type="radio" id="email" />
-            <label class="emailradiotext" for="email">Email</label>
-            <input class="phoneradio" type="radio" id="phone" />
-            <label class="phoneradiotext" for="phone">Phone</label>
+            <form>
+              <input
+                type="radio"
+                class="emailradio"
+                id="email"
+                name="radiobox"
+                checked="checked"
+              />
+              <label for="email" class="emailradiotext">Email</label>
+              <input
+                type="radio"
+                class="phoneradio"
+                id="phone"
+                name="radiobox"
+              />
+              <label for="phone" class="phoneradiotext">Phone</label>
+            </form>
           </div>
           <div class="submit_form">
             <input class="email_input" type="email" placeholder="Email" />
