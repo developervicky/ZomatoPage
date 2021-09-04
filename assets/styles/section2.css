@@ -1,0 +1,151 @@
+/* Section-2 => phone app advertisement */
+
+.zomatoapp {
+  position: relative;
+  background-color: rgb(255, 251, 247);
+  height: 35rem;
+  width: 100%;
+}
+
+.appcontainer {
+  height: 35rem;
+  max-width: 50rem;
+  margin: auto;
+}
+
+.phoneapp {
+  position: absolute;
+  top: 2rem;
+  height: 470px;
+  width: 260px;
+  margin: auto;
+}
+
+.appinfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 20rem;
+  top: 4.2rem;
+  max-width: 27rem;
+  height: 26rem;
+}
+
+.apptitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.appdesc {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+  color: rgb(133, 130, 130);
+  font-size: 1rem;
+}
+
+.app_form {
+  width: 13rem;
+  margin-bottom: 1rem;
+  display: flex;
+  font-size: 1rem;
+}
+
+input:checked {
+  background-color: #f57082;
+}
+.emailradio,
+.phoneradio {
+  height: 20px;
+  width: 20px;
+}
+
+.phoneradio {
+  position: relative;
+  top: 0.3rem;
+  left: 4rem;
+  stroke: rgb(237, 90, 107);
+  stroke-width: 1px;
+  fill: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.phoneradiotext {
+  position: relative;
+  font-size: 1.1rem;
+  top: 1.5px;
+  left: 4.5rem;
+  color: rgb(133, 130, 130);
+  cursor: pointer;
+}
+
+.emailradio {
+  position: relative;
+  top: 0.3rem;
+  stroke: rgb(237, 90, 107);
+  stroke-width: 1px;
+  fill: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.emailradiotext {
+  position: relative;
+  font-size: 1.1rem;
+  left: 0.5rem;
+  top: 1.5px;
+  color: rgb(133, 130, 130);
+  cursor: pointer;
+}
+.submit_form {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  width: 27rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.email_input,
+.submit_input {
+  height: 3rem;
+  border-radius: 7px;
+}
+
+.email_input {
+  width: 17.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  text-indent: 15px;
+  outline: none;
+  border: 0.1rem solid rgb(207, 207, 207);
+}
+.submit_input {
+  height: 3.2rem;
+  width: 9rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #e95662;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.download_app {
+  color: rgb(156, 156, 156);
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+
+.download_apppic {
+  width: 19.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.appstore,
+.playstore {
+  height: 2.5rem;
+  width: 9rem;
+  cursor: pointer;
+}

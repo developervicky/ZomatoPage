@@ -1,0 +1,241 @@
+/* footer */
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  height: 30rem;
+}
+
+.footerdiv {
+  max-width: 70rem;
+  height: 30rem;
+  margin: auto;
+}
+
+.footerlogopic {
+  position: relative;
+  height: 1.7rem;
+  top: 1rem;
+  width: 8.5rem;
+  margin-bottom: 1rem;
+}
+
+.logpicker {
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  width: 16rem;
+  height: 3rem;
+}
+
+.placedrop {
+  margin-right: 1rem;
+}
+
+.btndrop {
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: 1px solid rgb(181, 181, 181);
+  cursor: pointer;
+}
+.fa-chevron-down {
+  font-size: 12px;
+}
+.globe {
+  height: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.twitter,
+.instagram,
+.facebook {
+  height: 25px;
+  cursor: pointer;
+}
+
+.androidstore,
+.applestore {
+  height: 43px;
+  cursor: pointer;
+}
+
+.companylinks,
+.forfoodieslink,
+.forrestlink,
+.foryoulink,
+.sociallinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.linktitle {
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  font-size: 0.9rem;
+}
+
+.forfoodieslink a {
+  font-size: 1rem;
+  color: rgb(105, 105, 105);
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.forrestlink a {
+  font-size: 1rem;
+  color: rgb(105, 105, 105);
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.foryoulink a {
+  font-size: 1rem;
+  color: rgb(105, 105, 105);
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.companylinks a {
+  font-size: 1rem;
+  color: rgb(105, 105, 105);
+  line-height: 1.7;
+  font-weight: 100;
+}
+
+.sociallogo {
+  position: relative;
+  max-width: 6rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.applogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 6.5rem;
+  width: 9rem;
+}
+
+.copyright {
+  color: rgb(105, 105, 105);
+  font-size: 0.87rem;
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+.footersep {
+  position: relative;
+  max-width: 70rem;
+  height: 0.15rem;
+  background-color: rgb(207, 207, 207);
+  margin-bottom: 1rem;
+}
+
+.countrypicker {
+  height: 22px;
+}
+
+.locationcontent {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  max-width: 800px;
+  height: 15rem;
+  right: 30rem;
+  width: 43.5rem;
+  bottom: 95%;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.locationcontent a {
+  padding: 5px 10px;
+  margin: 1px;
+  align-items: center;
+  text-decoration: none;
+  display: inline;
+  width: 9.9rem;
+}
+
+.placedrop:hover .locationcontent {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.country {
+  position: relative;
+  left: 0.7rem;
+  bottom: 0.3rem;
+  font-weight: 200;
+  color: #4e4e4e;
+}
+
+.usacountry {
+  background-color: rgb(230, 230, 245);
+}
+
+.langcontent {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  max-width: 9.5rem;
+  height: 23rem;
+  right: 22.75rem;
+  width: 43.5rem;
+  bottom: 95%;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.langcontent a {
+  color: rgb(117, 115, 115);
+  padding: 10px 10px;
+  margin: 1px;
+  font-size: 1.3rem;
+  font-weight: 100;
+  align-items: center;
+  text-decoration: none;
+  display: inline;
+  width: 9.9rem;
+}
+
+.langdrop:hover .langcontent {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

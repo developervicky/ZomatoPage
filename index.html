@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="stylesheet" href="./assets/styles/header.css" />
+    <link rel="stylesheet" href="./assets/styles/navbar.css" />
+    <link rel="stylesheet" href="./assets/styles/section1.css" />
+    <link rel="stylesheet" href="./assets/styles/section2.css" />
+    <link rel="stylesheet" href="./assets/styles/section3.css" />
+    <link rel="stylesheet" href="./assets/styles/footer.css" />
     <script
       src="https://kit.fontawesome.com/310dd3060f.js"
       crossorigin="anonymous"
@@ -18,16 +24,20 @@
     <title>Zomato Clone</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
+      <!-- Background Picture -->
       <div class="background">
         <img class="bgimage" src="./assets/images/hero.png" alt="hero" />
       </div>
+      <!-- Navbar -->
       <div class="navbar">
         <nav>
           <div class="phone">
             <i class="fas fa-mobile-alt"></i>
             <span class="getapp"> Get the App </span>
           </div>
+          <!-- User Login -->
           <div class="user_log">
             <div class="login">Log in</div>
             <div class="signup">Sign up</div>
@@ -35,15 +45,18 @@
         </nav>
       </div>
       <div class="main_container">
+        <!-- company logo -->
         <div class="logo">
           <img class="zomlogo" src="/assets/images/logo.png" alt="" />
         </div>
+        <!-- company slogan -->
         <div class="slogan">
           <p>
             Discover the best food & drinks in
             <span class="city">Kingman, KS</span>
           </p>
         </div>
+        <!-- search container -->
         <div class="searchcontainer">
           <div class="centerthebox">
             <div class="citypicker">
@@ -70,6 +83,7 @@
         </div>
       </div>
     </header>
+    <!-- section 1 => Places Around -->
     <section class="placesaround">
       <div class="sectiononemain">
         <p class="locality">
@@ -82,6 +96,7 @@
         </div>
       </div>
     </section>
+    <!-- section 2 => phone app advertisement -->
     <section class="zomatoapp">
       <div class="appcontainer">
         <div class="app_photo">
@@ -92,6 +107,7 @@
           <p class="appdesc">
             We will send you a link, open it on your phone to download the app
           </p>
+          <!-- app registration -->
           <div class="app_form">
             <form>
               <input
@@ -131,10 +147,11 @@
         </div>
       </div>
     </section>
+    <!-- section-3 => other options -->
     <section class="explore">
       <div class="explore_container">
         <p>Explore other options for you here</p>
-
+        <!-- cuisines near me -->
         <div class="food_nearmediv">
           <p class="cuisines_nearme">Popular cuisines near me</p>
           <ul class="food_nearme">
@@ -200,7 +217,7 @@
             </li>
           </ul>
         </div>
-
+        <!-- restaurant near me -->
         <div class="restaurant_nearmediv">
           <p class="restitle">Popular restaurant types near me</p>
           <ul class="restaurant_nearme">
@@ -238,6 +255,7 @@
         </div>
       </div>
     </section>
+    <!-- footer -->
     <footer>
       <div class="footerdiv">
         <div class="logpicker">
@@ -248,7 +266,9 @@
               alt="logo"
             />
           </div>
+          <!-- dropup -->
           <div class="dropdown">
+            <!-- country picker -->
             <div class="placedrop">
               <button class="btndrop">
                 <img
@@ -258,170 +278,182 @@
                 />
                 USA<i class="fas fa-chevron-down"></i>
               </button>
+              <!-- country list -->
               <div class="locationcontent">
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/india.png"
                     alt="india"
-                  />India</a
-                >
+                  />
+                  <span class="country">India</span>
+                </a>
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/chile.png"
                     alt="chile"
-                  />Chile</a
-                >
+                  />
+                  <span class="country">Chile</span>
+                </a>
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/italy.png"
                     alt="italy"
-                  />Italy</a
-                >
+                  />
+                  <span class="country">Italy</span>
+                </a>
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/philippines.png"
                     alt="philippines"
-                  />Philippines</a
+                  /><span class="country">Philippines</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/singapore.png"
                     alt="singapore"
-                  />Singapore</a
+                  /><span class="country">Singapore</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/turkey.png"
                     alt="turkey"
-                  />Turkey</a
+                  /><span class="country">Turkey</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/australia.png"
                     alt="australia"
-                  />Australia</a
+                  /><span class="country">Australia</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/czech-republic.png"
                     alt="czech"
-                  />Czech Republic</a
+                  /><span class="country">Czech Republic</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/lebanon.png"
                     alt="lebanon"
-                  />Lebanon</a
+                  /><span class="country">Lebanon</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/poland.png"
                     alt="poland"
-                  />Poland</a
+                  /><span class="country">Poland</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/slovakia.png"
                     alt="slovakia"
-                  />Slovakia</a
+                  /><span class="country">Slovakia</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/united-arab-emirates.png"
                     alt="uae"
-                  />UAE</a
+                  /><span class="country">UAE</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/brazil.png"
                     alt="brazil"
-                  />Brazil</a
+                  /><span class="country">Brazil</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/indonesia.png"
                     alt="ind0nesia"
-                  />Indonesia</a
+                  /><span class="country">Indonesia</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/malaysia.png"
                     alt="malaysia"
-                  />Malaysia</a
+                  /><span class="country">Malaysia</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/portugal.png"
                     alt="portugal"
-                  />Portugal</a
+                  /><span class="country">Portugal</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/south-africa.png"
                     alt="south_africa"
-                  />South Africa</a
+                  /><span class="country">South Africa</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/united-kingdom.png"
                     alt="uk"
-                  />United Kingdom</a
+                  /><span class="country">United Kingdom</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/canada.png"
                     alt="canada"
-                  />Canada</a
+                  /><span class="country">Canada</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/ireland.png"
                     alt="ireland"
-                  />Ireland</a
+                  /><span class="country">Ireland</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/new-zealand.png"
                     alt="nz"
-                  />New Zealand</a
+                  /><span class="country">New Zealand</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/qatar.png"
                     alt="qatar"
-                  />Qatar</a
+                  /><span class="country">Qatar</span></a
                 >
                 <a href="#"
                   ><img
                     class="countrypicker"
                     src="/assets/images/country/sri-lanka.png"
                     alt="sl"
-                  />Sri Lanka</a
+                  /><span class="country">Sri Lanka</span></a
+                >
+                <a href="#" class="usacountry"
+                  ><img
+                    class="countrypicker"
+                    src="/assets/images/country/united-states.png"
+                    alt="usa"
+                  /><span class="country">USA</span></a
                 >
               </div>
             </div>
+            <!-- lang picker -->
             <div class="langpickerdrop">
               <div class="langdrop">
                 <button class="btndrop">
@@ -432,6 +464,7 @@
                   />
                   English<i class="fas fa-chevron-down"></i>
                 </button>
+                <!-- lang lists -->
                 <div class="langcontent">
                   <a href="#">Turkish</a>
                   <a href="#">Hindi</a>
@@ -446,6 +479,7 @@
             </div>
           </div>
         </div>
+        <!-- footer links -->
         <div class="links">
           <div class="companylinks">
             <p class="linktitle">company</p>
@@ -477,6 +511,7 @@
             <a href="#">Security</a>
             <a href="#">Sitemap</a>
           </div>
+          <!-- social links -->
           <div class="sociallinks">
             <p class="linktitle">social links</p>
             <div class="sociallogo">
@@ -510,6 +545,7 @@
             </div>
           </div>
         </div>
+        <!-- copyright -->
         <div class="footersep"></div>
         <p class="copyright">
           By continuing past this page, you agree to our Terms of Service,

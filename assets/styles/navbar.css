@@ -1,0 +1,46 @@
+/* Navbar */
+
+.navbar {
+  position: relative;
+  width: 100%;
+  max-width: 58rem;
+  margin: 0 auto;
+}
+nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px 0px;
+}
+.phone {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+}
+.fa-mobile-alt {
+  padding-left: 5px;
+}
+.getapp {
+  position: relative;
+  left: 6px;
+}
+.user_log {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: lighter;
+  position: absolute;
+}
+
+.login,
+.signup {
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.signup {
+  padding-right: 5px;
+}
